@@ -3,7 +3,7 @@ require 'csv'
 require_relative 'config'
 
 module LedgerBase
-  module CSV
+  module CSVParser
     TAG_KEY_VALUE_REGEXP = /^[[:blank:]]*(?<key>[[:graph:]]*?): (?<value>[[:print:]]*)[[:blank:]]*$/
     TAG_REGEXP = /^[[:blank:]]*:(?<tag>[[:graph:]]*?):[[:blank:]]*$/
 
